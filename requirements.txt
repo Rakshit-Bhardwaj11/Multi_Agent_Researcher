@@ -1,8 +1,17 @@
+# Streamlit app (missing — needed since this is a Streamlit deployment)
+streamlit>=1.38.0
+
 # Core LLM + LangChain ecosystem
 langchain>=0.2.0
 langchain-core>=0.2.0
 langchain-community>=0.2.0
 langchain-openai>=0.1.0
+
+# Gemini (missing — agents.py imports langchain_google_genai)
+langchain-google-genai>=2.0.0
+
+# Agent orchestration (missing — create_agent depends on langgraph)
+langgraph>=0.2.0
 
 # OpenAI
 openai>=1.30.0
